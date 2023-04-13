@@ -1,0 +1,268 @@
+@font-face {
+  font-family: "fontuser";
+  src: url("../webfonts/satisfy.woff2") format("woff2"),
+    url("../webfonts/satisfy.woff") format("woff"),
+    url("../webfonts/satisfy.ttf") format("truetype");
+}
+
+header .navbar-brand img {
+  width: 35px;
+  margin-right: 5px;
+}
+
+header .navbar-brand {
+  color: #7ab730 !important;
+  display: flex;
+  align-items: flex-end;
+  font-family: "fontuser";
+  font-size: 22px !important;
+}
+
+.navbar-nav {
+  font-family: "fontuser" !important;
+}
+
+.navbar-toggler {
+  background-color: #7ec32a !important;
+}
+
+#sec-1 {
+  background: url("../img/Banner-1.jpg") no-repeat center center / cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+#sec-1 h1,
+#sec-1 h4 {
+  font-family: "fontuser";
+}
+
+#sec-1 h4 {
+  font-size: 25px !important;
+}
+
+#sec-1 h1 {
+  font-weight: 600;
+  transform: scaleY(1.4);
+  letter-spacing: 3px;
+}
+
+.tpage {
+  text-align: justify;
+}
+
+.tpage a {
+  color: #7ab730;
+}
+
+#sec-2,
+#sec-3 {
+  background-color: #f3f3f3;
+}
+
+#sec-2 div.border-success {
+  border-color: #7ab730 !important;
+}
+
+#sec-2 div.border-start {
+  border-left: 3px solid #7ab730 !important;
+}
+
+#sec-2 p.fw-bold,
+#sec-3 p.fw-bold {
+  color: #7ab730;
+}
+
+#sec-2 p.my-3 {
+  text-align: justify;
+}
+
+#sec-2 div.d-flex {
+  flex-wrap: wrap;
+}
+
+#sec-2 a {
+  color: #7ab730;
+  border: #7ab730;
+}
+
+#sec-3 div.border-start {
+  border-left: 3px solid #7ab730 !important;
+}
+
+#sec-3 i {
+  font-size: 90px !important;
+}
+
+#sec-3 div.text-end p {
+  color: #7ab730 !important;
+}
+
+#sec-4 {
+  background: url("../img/Banner-2.jpg") no-repeat center center / cover;
+}
+
+#sec-4 div.border-start {
+  border-left: 3px solid black !important;
+}
+
+#sec-4 p.fw-medium {
+  text-align: justify;
+}
+
+#sec-4 a.btn {
+  background-color: black;
+}
+
+#sec-5 div.border-start {
+  border-left: 3px solid #7ab730 !important;
+}
+
+#sec-5 p.fw-bold {
+  color: #7ab730;
+}
+#sec-5 div.p-1 {
+  border: 1px dotted #cdcaca;
+}
+
+#sec-5 .cr {
+  background-color: #f3f3f3;
+}
+
+#sec-5 div.cr p.h1 {
+  color: #7ab730 !important;
+}
+
+#sec-5 p.h2 {
+  font-size: 35px !important;
+  background-color: #7ab730 !important;
+}
+
+#sec-5 span.h6 {
+  font-size: 13px !important;
+}
+
+#sec-5 sup {
+  font-size: 15px !important;
+  font-weight: 700;
+}
+
+#sec-5 i {
+  color: #7ab730;
+}
+
+#sec-5 a.btn {
+  display: inline-block;
+  background-color: #7ab730;
+}
+
+#sec-5 div.crBlack p.h1 {
+  color: black !important;
+}
+
+#sec-5 div.cr a {
+  font-weight: 500;
+}
+
+#sec-5 div.crBlack p.h2,
+#sec-5 div.crBlack a {
+  background-color: black !important;
+  color: white !important;
+}
+
+#sec-6 div.border-start {
+  border-left: 3px solid #7ab730 !important;
+}
+
+#sec-6 p.fw-bold {
+  color: #7ab730 !important;
+}
+
+#sec-6 p.border-bottom {
+  color: #7ab730 !important;
+  border-bottom: 1px dotted #7ab730 !important;
+  padding: 10px 0;
+}
+#sec-6 p.border-bottom i {
+  padding: 0 8px;
+}
+
+#sec-6 a.btn {
+  color: #7ab730 !important;
+  border: 1px solid #7ab730 !important;
+}
+
+#sec-6 div.card {
+  background-color: #f3f3f3;
+}
+
+footer {
+  background-color: #f3f3f3;
+}
+
+footer h2.border-start {
+  border-left: 3px solid #7ab730 !important;
+}
+
+footer p i {
+  color: #7ab730;
+}
+
+footer div.input-group span {
+  background-color: #7ab730 !important;
+}
+
+footer a.border {
+  color: #7ab730;
+  height: 40px !important;
+  width: 40px !important;
+  border-color: #7ab730 !important;
+  text-decoration: none;
+}
+
+.containerCss {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .containerCss {
+    width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #sec-4 div.m8 {
+    width: 80% !important;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .containerCss {
+    width: 710px;
+  }
+
+  #sec-4 div.m8 {
+    width: 60% !important;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .containerCss {
+    width: 930px;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .containerCss {
+    width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .containerCss {
+    width: 1340px;
+  }
+}
